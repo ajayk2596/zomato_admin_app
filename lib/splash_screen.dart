@@ -7,7 +7,20 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Splash Screen"),
+        child: Column(
+          children: [
+            Text("Splash Screen",style: TextStyle(fontSize: 30,color: Colors.orange,fontWeight: FontWeight.bold),),
+            
+            Text("My Data"),
+            
+            Row(
+              children: [
+                Text("dfghjkl"),
+                Text("ertfyghjkml,;.")
+              ],
+            )
+          ],
+        )
       ),
     );
   }
